@@ -576,3 +576,36 @@ margin-top: 30px;
   cursor: pointer;
   display: none;
 }
+
+#chk-ans{
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+#chk-ans a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.answer{
+  margin-top: 100px;
+  margin-left: 50px;
+
+}
+
+.answer h2{
+  font-weight: 500;
+}
+
+.answer p{
+  font-size: 20px;
+}

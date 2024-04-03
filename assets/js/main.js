@@ -108,6 +108,7 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-button");
 const nextbutton = document.getElementById("next-btn");
+const checkbutton = document.getElementById("chk-ans");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -148,7 +149,9 @@ function showQuestion() {
 
         answerButtons.appendChild(button);
     });
+
 }
+
 
 function displayScore() {
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}`;
@@ -156,6 +159,7 @@ function displayScore() {
     nextbutton.style.display = "block";
     nextbutton.innerHTML = "Play Again";
     nextbutton.addEventListener('click', startQuiz);
+    checkbutton.style.display = "block";
 }
 
 startQuiz();
